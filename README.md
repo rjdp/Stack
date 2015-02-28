@@ -1,5 +1,5 @@
 # Stack
-Checks status whether any of php,nginx,mysql is installed, if not then installs using proper subcommands and also reports their running status
+CLI app based on Cement Framework to Check whether any of php, nginx, mysql is installed, if not then installs using proper subcommands and also reports their running status
 
 Usage
 ======
