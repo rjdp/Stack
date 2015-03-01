@@ -1,18 +1,19 @@
 # Stack
-CLI app based on Cement Framework to Check whether any of php, nginx, mysql is installed, if not then installs using proper subcommands and also reports their running status
+CLI app based on Cement Framework to Check whether any of `php`, `nginx`, `mysql` is installed, if not then installs using proper subcommands and also reports their running status .
 
-Usage
-======
-1) StackApp.py install => installs any of php,mysql,nginx if not already installed
-2) StackApp.py php => installs php if not already installed
-3) StackApp.py mysql => installs mysql if not already installed
-4) StackApp.py nginx => installs nginx if not already installed
-5) StackApp.py status --nginx => reports whether nginx is running
-6) StackApp.py status --php => reports whether php is running
-7) StackApp.py status --mysql => reports whether mysql is running
+Using StackApp
+==============
+**Usage**|**Description**
+`StackApp.py install` | Installs any of php,mysql,nginx if not already installed
+`StackApp.py php` | Installs php if not already installed
+`StackApp.py mysql`| Installs mysql if not already installed
+`StackApp.py nginx`| Installs nginx if not already installed
+`StackApp.py status --nginx` | reports whether nginx is running
+`StackApp.py status --php` | reports whether php is running
+`StackApp.py status --mysql` | reports whether mysql is running
 
 
 Improvements for next version
 =================================
-1) Enable custom help text
-2) Error handling ..etc
+1. Enable custom help text
+2. Error handling ..etc
