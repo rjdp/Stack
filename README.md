@@ -4,6 +4,7 @@ CLI app based on Cement Framework to Check whether any of `php`, `nginx`, `mysql
 Using StackApp
 ==============
 **Usage**|**Description**
+-------------|------
 `StackApp.py install` | Installs any of php,mysql,nginx if not already installed
 `StackApp.py php` | Installs php if not already installed
 `StackApp.py mysql`| Installs mysql if not already installed
